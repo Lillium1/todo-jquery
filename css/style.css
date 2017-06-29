@@ -14,10 +14,13 @@ input[type=text]:not(.browser-default) {
 	border-bottom: 1px solid #a4faf1;
 }
 
-
-
 input {
 	color: whitesmoke;
+}
+
+label #test5 {
+	margin: 5px;
+	font-size: 20px;
 }
 
 .txt-bl {
@@ -38,6 +41,15 @@ input {
 	margin: 20px 0;
 }
 
-.input-field i {
+.input-field i,
+.input-field label,
+label #test5,
+label {
 	color: #a4faf1;
 }
+
+[type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+	border: 2px solid #a4faf1;
+	margin: 5px 0;
+}
+

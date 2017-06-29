@@ -23,11 +23,6 @@ $(document).ready(function() {
 			$("#terminado").append(p);
 		})
 
-		
-
 	});
-
-	
-
 	
 });
