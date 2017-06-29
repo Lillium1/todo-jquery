@@ -1,0 +1,43 @@
+body{
+	background-image: url(../img/kawaii_cute_.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h5{
+	text-align: center;
+	color: #a4faf1;
+	padding: 3% 0;
+}
+
+input[type=text]:not(.browser-default) {
+	border-bottom: 1px solid #a4faf1;
+}
+
+
+
+input {
+	color: whitesmoke;
+}
+
+.txt-bl {
+	color: whitesmoke;
+}
+
+.card {
+	padding: 5%;
+	background-color: rgba(122, 40, 160, 0.58);
+}
+
+.linea {
+	background-color: #26a69a;
+	height: 1px;
+}
+
+.input-field {
+	margin: 20px 0;
+}
+
+.input-field i {
+	color: #a4faf1;
+}
